@@ -32,381 +32,374 @@
     <script src="../dist/js/patternfly.min.js"></script>
   </head>
   <body class="cards-pf">
-    <nav class="navbar navbar-pf-alt">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a href="/" class="navbar-brand">
-      <img class="navbar-brand-icon" src="../dist/img/logo-alt.svg" alt=""/><img class="navbar-brand-name" src="../dist/img/brand-alt.svg" alt="PatternFly Enterprise Application" />
-    </a>
-  </div>
-  <nav class="navbar collapse navbar-default navbar-collapse navbar-pf" role="navigation">
-    <ul class="nav navbar-nav">
-      <li><a href="#" target="_blank" class="nav-item-iconic nav-item-iconic-new-window"><span title="Launch" class="fa fa-external-link"></span></a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right navbar-iconic">
-      <li class="dropdown">
-        <a class="dropdown-toggle nav-item-iconic" id="notifications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-          <span title="Notifications" class="fa pficon-flag"></span>
-          <span class="badge">2</span>
+    <nav class="navbar navbar-pf-alt navbar-default" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/" class="navbar-brand">
+          <img class="navbar-brand-icon" src="../dist/img/logo-alt.svg" alt=""/><img class="navbar-brand-name" src="../dist/img/brand-alt.svg" alt="PatternFly Enterprise Application" />
         </a>
-        <div class="dropdown-menu infotip bottom-right">
-          <div class="arrow"></div>
-          <ul class="list-group">
-            <li class="list-group-item">
-              <span class="i pficon pficon-info"></span> Modified Datasources ExampleDS
-            </li>
-            <li class="list-group-item">
-              <span class="i pficon pficon-info"></span> Error: System Failure
-            </li>
-          </ul>
-          <div class="footer">
-            <a>Clear Messages</a>
-          </div>
-        </div>
-      </li>
-      <li class="dropdown">
-        <a class="dropdown-toggle nav-item-iconic" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-          <span title="Help" class="fa pficon-help"></span>
-          <span class="caret"></span>
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-          <li><a href="#">Help</a></li>
-          <li><a href="#">About</a></li>
+      </div>
+      <nav class="navbar collapse navbar-default navbar-collapse navbar-pf" role="navigation">
+        <ul class="nav navbar-nav">
+          <li><a href="#" target="_blank" class="nav-item-iconic nav-item-iconic-new-window"><span title="Launch" class="fa fa-external-link"></span></a></li>
         </ul>
-      </li>
-      <li class="dropdown">
-        <a class="dropdown-toggle nav-item-iconic" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> 
-<!--    <a class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown"> -->
-          <span title="Username" class="fa pficon-user"></span>admin
-          <span class="caret"></span>
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-          <li><a href="#">Logout</a></li>
-          <li><a href="#">Shutdown</a></li>
-          <li><a href="#">Reboot</a></li>
-          <li class="divider"></li>
-          <li><a href="#">One more separated link</a></li>
-        </ul>
-      </li>
-<!--  <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          <span class="pficon pficon-user"></span>
-          admin <b class="caret"></b>
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-          <li>
-            <a href="#">Logout</a>
+        <ul class="nav navbar-nav navbar-right navbar-iconic">
+          <li class="dropdown">
+            <a class="dropdown-toggle nav-item-iconic" id="notifications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <span title="Notifications" class="fa pficon-flag"></span>
+              <span class="badge">2</span>
+            </a>
+            <div class="dropdown-menu infotip bottom-right">
+              <div class="arrow"></div>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <span class="i pficon pficon-info"></span> Modified Datasources ExampleDS
+                </li>
+                <li class="list-group-item">
+                  <span class="i pficon pficon-info"></span> Error: System Failure
+                </li>
+              </ul>
+              <div class="footer">
+                <a>Clear Messages</a>
+              </div>
+            </div>
           </li>
-          <li>
-            <a href="#">Shutdown</a>
+          <li class="dropdown">
+            <a class="dropdown-toggle nav-item-iconic" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <span title="Help" class="fa pficon-help"></span>
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="#">Help</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
           </li>
-          <li>
-            <a href="#">Reboot</a>
+          <li class="dropdown">
+            <a class="dropdown-toggle nav-item-iconic" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> 
+<!--        <a class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown"> -->
+              <span title="Username" class="fa pficon-user"></span>admin
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <li><a href="#">Logout</a></li>
+              <li><a href="#">Shutdown</a></li>
+              <li><a href="#">Reboot</a></li>
+              <li class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
           </li>
-          <li class="divider"></li>
-          <li class="dropdown-submenu">
-            <a tabindex="-1" href="#">More options</a>
-            <ul class="dropdown-menu">
+<!--      <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <span class="pficon pficon-user"></span>
+              admin <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
               <li>
-                <a href="#">Link</a>
+                <a href="#">Logout</a>
               </li>
               <li>
-                <a href="#">Another link</a>
+                <a href="#">Shutdown</a>
               </li>
               <li>
-                <a href="#">Something else here</a>
+                <a href="#">Reboot</a>
               </li>
               <li class="divider"></li>
-              <li class="dropdown-header">Nav header</li>
-              <li>
-                <a href="#">Separated link</a>
+              <li class="dropdown-submenu">
+                <a tabindex="-1" href="#">More options</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Link</a>
+                  </li>
+                  <li>
+                    <a href="#">Another link</a>
+                  </li>
+                  <li>
+                    <a href="#">Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li>
+                    <a href="#">Separated link</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <a href="#">One more separated link</a>
+                  </li>
+                </ul>
               </li>
               <li class="divider"></li>
               <li>
                 <a href="#">One more separated link</a>
               </li>
             </ul>
-          </li>
-          <li class="divider"></li>
-          <li>
-            <a href="#">One more separated link</a>
-          </li>
+          </li> -->
         </ul>
-      </li> -->
-    </ul>
-    <ul class="nav navbar-nav navbar-primary">
-      <li>
-        <a href="#">Dashboard</a>
-      </li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          Storage
-          <b class="caret"></b>
-        </a>
-        <ul class="dropdown-menu">
+        <ul class="nav navbar-nav navbar-primary">
           <li>
-            <a href="#">
-              <span class="fa fa-database"></span>
-              Disks
-            </a>
+            <a href="#">Dashboard</a>
           </li>
-          <li>
-            <a href="#">
-              <span class="fa fa-list"></span>
-              Pools
-            </a>
-          </li>
-          <li>
-            <a href="#">
-            <span class="pficon pficon-folder-open"></span>
-              Shares
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="fa fa-camera"></span>
-              Snapshots
-            </a>
-          </li>
-          <li class="dropdown-submenu">
-            <a tabindex="-1" href="#">
-              <span class="fa fa-exchange"></span>
-              Replication
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              Storage
+              <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
               <li>
                 <a href="#">
-                  <span class="fa fa-long-arrow-right"></span>
-                  Send
+                  <span class="fa fa-database"></span>
+                  Disks
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <span class="fa fa-long-arrow-left"></span>
-                  Receive
+                  <span class="fa fa-list"></span>
+                  Pools
                 </a>
               </li>
+              <li>
+                <a href="#">
+                <span class="pficon pficon-folder-open"></span>
+                  Shares
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="fa fa-camera"></span>
+                  Snapshots
+                </a>
+              </li>
+              <li class="dropdown-submenu">
+                <a tabindex="-1" href="#">
+                  <span class="fa fa-exchange"></span>
+                  Replication
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">
+                      <span class="fa fa-long-arrow-right"></span>
+                      Send
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="fa fa-long-arrow-left"></span>
+                      Receive
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu">
+                <a tabindex="-1" href="#">
+                  <span class="fa fa-share"></span>
+                  File Sharing
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">NFS</a></li>
+                  <li><a href="#">Samba</a></li>
+                  <li><a href="#">SFTP</a></li>
+                  <li><a href="#">AFP</a></li>
+                </ul>
+              </li>
             </ul>
           </li>
-          <li class="dropdown-submenu">
-            <a tabindex="-1" href="#">
-              <span class="fa fa-share"></span>
-              File Sharing
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="#">NFS</a>
-              </li>
-              <li>
-                <a href="#">Samba</a>
-              </li>
-              <li>
-                <a href="#">SFTP</a>
-              </li>
-              <li>
-                <a href="#">AFP</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          System
-          <b class="caret"></b>
-        </a>
-        <ul class="dropdown-menu">
-          <li>
-            <a href="#">
-              <span class="fa fa-cog"></span>
-              Services
-            </a>
-          </li>
-          <li class="dropdown-submenu">
-            <a tabindex="-1" href="#">
-              <span class="pficon pficon-user"></span>
-              Identity
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              System
+              <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
               <li>
                 <a href="#">
+                  <span class="fa fa-cog"></span>
+                  Services
+                </a>
+              </li>
+              <li class="dropdown-submenu">
+                <a tabindex="-1" href="#">
                   <span class="pficon pficon-user"></span>
-                  Users
+                  Identity
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">
+                      <span class="pficon pficon-user"></span>
+                      Users
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="pficon pficon-users"></span>
+                      Groups
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="fa fa-key"></span>
+                      Access Keys
+                    </a>
+                  </li>
+                </ul>
+              </li>    
+              <li>
+                <a href="#">
+                  <span class="fa fa-signal"></span>
+                  Network Interfaces
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <span class="pficon pficon-users"></span>
-                  Groups
+                  <span class="fa fa-calendar"></span>
+                  Scheduled Tasks
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <span class="fa fa-key"></span>
-                  Access Keys
+                  <span class="fa fa-cloud-download"></span>
+                  Software Update
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="pficon pficon-screen"></span>
+                  Appliances
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="fa fa-certificate"></span>
+                  SSL Certificate
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="fa fa-floppy-o"></span>
+                  Config Backups
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="fa fa-envelope"></span>
+                  E-mail Alerts
                 </a>
               </li>
             </ul>
           </li>
           <li>
+            <a href="#">Rock-Ons</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              Support
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#">
+                  <span class="fa fa-book"></span>
+                  Documentation
+                </a>
+              </li>
+              <li>
+                <a href="#">Community Forums</a>
+              </li>
+              <li>
+                <a href="#">Issue Tracker</a>
+              </li>
+              <li>
+                <a href="#">Team E-Mail</a>
+              </li>
+            </ul>
+          </li>
+          <li>
             <a href="#">
-              <span class="fa fa-signal"></span>
-              Network Interfaces
+              <span class="fa fa-heart"></span>
+              Donate
             </a>
           </li>
           <li>
             <a href="#">
-              <span class="fa fa-calendar"></span>
-              Scheduled Tasks
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="fa fa-cloud-download"></span>
-              Software Update
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="pficon pficon-screen"></span>
-              Appliances
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="fa fa-certificate"></span>
-              SSL Certificate
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="fa fa-floppy-o"></span>
-              Config Backups
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="fa fa-envelope"></span>
-              E-mail Alerts
+              <span class="fa fa-shopping-cart"></span>
+              Shop
             </a>
           </li>
         </ul>
-      </li>
-      <li>
-        <a href="#">Rock-Ons</a>
-      </li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          Support
-          <b class="caret"></b>
-        </a>
-        <ul class="dropdown-menu">
-          <li>
-            <a href="#">
-              <span class="fa fa-book"></span>
-              Documentation
-            </a>
-          </li>
-          <li>
-            <a href="#">Community Forums</a>
-          </li>
-          <li>
-            <a href="#">Issue Tracker</a>
-          </li>
-          <li>
-            <a href="#">Team E-Mail</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">
-          <span class="fa fa-heart"></span>
-          Donate
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <span class="fa fa-shopping-cart"></span>
-          Shop
-        </a>
-      </li>
-    </ul>
-  </nav>      
- </nav> <!--/.navbar-->
+      </nav>      
+    </nav> <!--/.navbar-->
 
-<nav class="nav-pf-vertical-alt">
-  <ul class="list-group">
-    <li class="list-group-item active">
-      <a href="#">
-        <span class="fa fa-dashboard" title="Dashboard" data-toggle="tooltip" data-placement="right"></span>
-        <span class="list-group-item-value">Dashboard</span>
-      </a>
-    </li>
-    <li class="list-group-item">
-      <a href="#">
-        <span class="fa fa-file-o" title="My Services" data-toggle="tooltip" data-placement="right"></span>
-        <span class="list-group-item-value">My Services</span>
-        <span class="badge">12</span>
-      </a>
-    </li>
-    <li class="list-group-item">
-      <a href="#">
-        <span class="fa fa-file-text-o" title="My Requests" data-toggle="tooltip" data-placement="right"></span>
-        <span class="list-group-item-value">My Requests</span>
-        <span class="badge">2</span>
-      </a>
-    </li>
-    <li class="list-group-item">
-      <a href="#">
-        <span class="fa fa-copy" title="My Items" data-toggle="tooltip" data-placement="right"></span>
-        <span class="list-group-item-value">My Items</span>
-      </a>
-    </li>
-    <li class="list-group-item list-group-item-separator hidden-sm hidden-md hidden-lg">
-      <a href="#">
-        <span class="fa fa-external-link" title="Launch"></span>
-        <span class="list-group-item-value">Launch</span>
-      </a>
-    </li>
-    <li class="list-group-item hidden-sm hidden-md hidden-lg">
-      <a href="#">
-        <span class="pficon pficon-flag" title="Notifications"></span>
-        <span class="list-group-item-value">Notifications</span>
-        <span class="badge notifications">2</span>
-      </a>
-    </li>
-    <li class="list-group-item hidden-sm hidden-md hidden-lg">
-      <a href="#">
-        <span class="pficon pficon-help" title="Help"></span>
-        <span class="list-group-item-value">Help</span>
-      </a>
-    </li>
-     <li class="list-group-item hidden-sm hidden-md hidden-lg">
-      <a href="#">
-        <span class="fa fa-info-circle" title="About"></span>
-        <span class="list-group-item-value">About</span>
-      </a>
-    </li>
-    <li class="list-group-item hidden-sm hidden-md hidden-lg">
-      <a href="#">
-        <span class="pficon pficon-user" title="Preferences"></span>
-        <span class="list-group-item-value">Preferences</span>
-      </a>
-    </li>
-    <li class="list-group-item hidden-sm hidden-md hidden-lg">
-      <a href="#">
-        <span class="fa fa-sign-out" title="Log Out"></span>
-        <span class="list-group-item-value">Log Out</span>
-      </a>
-    </li>
-  </ul>
-</nav>
-   <div class="container">
+    <nav class="nav-pf-vertical-alt">
+      <ul class="list-group">
+        <li class="list-group-item active">
+          <a href="#">
+            <span class="fa fa-dashboard" title="Dashboard" data-toggle="tooltip" data-placement="right"></span>
+            <span class="list-group-item-value">Dashboard</span>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="#">
+            <span class="fa fa-file-o" title="My Services" data-toggle="tooltip" data-placement="right"></span>
+            <span class="list-group-item-value">My Services</span>
+            <span class="badge">12</span>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="#">
+            <span class="fa fa-file-text-o" title="My Requests" data-toggle="tooltip" data-placement="right"></span>
+            <span class="list-group-item-value">My Requests</span>
+            <span class="badge">2</span>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a href="#">
+            <span class="fa fa-copy" title="My Items" data-toggle="tooltip" data-placement="right"></span>
+            <span class="list-group-item-value">My Items</span>
+          </a>
+        </li>
+        <li class="list-group-item list-group-item-separator hidden-sm hidden-md hidden-lg">
+          <a href="#">
+            <span class="fa fa-external-link" title="Launch"></span>
+            <span class="list-group-item-value">Launch</span>
+          </a>
+        </li>
+        <li class="list-group-item hidden-sm hidden-md hidden-lg">
+          <a href="#">
+            <span class="pficon pficon-flag" title="Notifications"></span>
+            <span class="list-group-item-value">Notifications</span>
+            <span class="badge notifications">2</span>
+          </a>
+        </li>
+        <li class="list-group-item hidden-sm hidden-md hidden-lg">
+          <a href="#">
+            <span class="pficon pficon-help" title="Help"></span>
+            <span class="list-group-item-value">Help</span>
+          </a>
+        </li>
+         <li class="list-group-item hidden-sm hidden-md hidden-lg">
+          <a href="#">
+            <span class="fa fa-info-circle" title="About"></span>
+            <span class="list-group-item-value">About</span>
+          </a>
+        </li>
+        <li class="list-group-item hidden-sm hidden-md hidden-lg">
+          <a href="#">
+            <span class="pficon pficon-user" title="Preferences"></span>
+            <span class="list-group-item-value">Preferences</span>
+          </a>
+        </li>
+        <li class="list-group-item hidden-sm hidden-md hidden-lg">
+          <a href="#">
+            <span class="fa fa-sign-out" title="Log Out"></span>
+            <span class="list-group-item-value">Log Out</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    
+    <div class="container">
       <div class="page-header">
         <h1>Rockstor Demo</h1>
       </div>
